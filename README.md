@@ -1,7 +1,7 @@
 # Welcome to the MongoDB Docker Setup! 🍃
 Spin up your own MongoDB database with a sleek, web-based admin interface in just a few simple steps! This project leverages Docker Compose to seamlessly deploy both MongoDB and Mongo Express, making database management a breeze.
 
-# MongoDB with Mongo Express using Docker Compose
+## MongoDB with Mongo Express using Docker Compose
 
 This project provides a simple setup to run a MongoDB instance along with a Mongo Express web-based MongoDB admin interface using Docker Compose.
 
