@@ -25,7 +25,7 @@ This setup consists of two services:
         Accessible via port 8081 on localhost.
         Configured to connect to the MongoDB service using the same credentials.
 
- Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have Docker and Docker Compose installed on your machine.
 
