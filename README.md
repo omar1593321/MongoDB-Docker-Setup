@@ -1,3 +1,4 @@
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=omar1593321&repo=MongoDB-Docker-Setup)](https://github.com/anuraghazra/github-readme-stats)
 # Welcome to the MongoDB Docker Setup! 🍃
 Spin up your own MongoDB database with a sleek, web-based admin interface in just a few simple steps! This project leverages Docker Compose to seamlessly deploy both MongoDB and Mongo Express, making database management a breeze.
 
