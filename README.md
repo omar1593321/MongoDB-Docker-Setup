@@ -131,6 +131,14 @@ docker volume rm mongodb-data
 ```
 Ensure no containers are using the volume before removing it.
 
+**4. Verify the Setup**
+
+After starting your services with docker-compose up, verify that the volume is being used:
+
+  **Check Container Logs:** Ensure that MongoDB is writing data to the volume by inspecting the logs.
+
+  **Inspect Volume Contents:** Use the docker volume inspect command and navigate to the mount point to verify that data is being stored correctly.
+
 ## Access Mongo Express
 
 Mongo Express provides a convenient web interface for managing your MongoDB instance. To access it: http://localhost:8081 to manage your MongoDB instance.
