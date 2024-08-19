@@ -57,9 +57,7 @@ cd MongoDB-Docker-Setup
 With Docker and Docker Compose installed, you can now start both the MongoDB and Mongo Express services with a single command:
 
 ```
-
 docker-compose up
-
 ```
 This command will:
 
