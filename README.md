@@ -57,7 +57,7 @@ cd MongoDB-Docker-Setup
 With Docker and Docker Compose installed, you can now start both the MongoDB and Mongo Express services with a single command:
 
 ```
-docker-compose up
+docker-compose -f docker_compose_mongo.yaml up
 ```
 This command will:
 
@@ -71,7 +71,7 @@ You’ll see logs in the terminal as Docker pulls the images and starts the serv
 
 Mongo Express provides a convenient web interface for managing your MongoDB instance. To access it: http://localhost:8081 to manage your MongoDB instance.
  
-Here, you can view and manage your databases, collections, and documents. The interface will prompt you for the credentials you set up in the docker-compose.yml file (admin and password by default).
+Here, you can view and manage your databases, collections, and documents. The interface will prompt you for the credentials you set up in the docker-compose.yml file (admin and pass by default).
 
 ## Verify the MongoDB Connection
 
@@ -101,3 +101,6 @@ This will gracefully stop both services and clean up the resources, leaving your
 ## Contributing
 
 Feel free to open issues or pull requests if you have any suggestions or improvements.
+
+## Screen Shots :
+![Screenshot 2024-08-19 232719](https://github.com/user-attachments/assets/470e8549-2f87-4e7a-b3de-16b1f28a4ab3)
